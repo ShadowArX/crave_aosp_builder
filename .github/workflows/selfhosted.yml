@@ -17,17 +17,14 @@ on:
         type: choice
         options:
           - 'LineageOS 20.0'
-          - 'LineageOS 21.0'
           - 'LineageOS 22.1'
-          - 'ArrowOS 13.1'
+          - 'LineageOS 23.2'
           - 'DerpFest 14.0'
           - 'CipherOS 14'
           - 'PixelOS 15'
-          - 'RisingOS 15 Revived'
           - 'LineageOS 18.1'
           - 'LineageOS 16.0'
-          - 'CyanogenMOD 14.1'
-          - 'AOSP'
+          - 'CyanogenMOD 12.1'
       BUILD_DIFFERENT_ROM:
         description: "Command to initialize a different 'repo' project:"
         required: false
